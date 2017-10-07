@@ -37,5 +37,4 @@ public abstract class Player {
 	public void setActive(boolean active) {
 		this.active = active;
 	}
-
 }

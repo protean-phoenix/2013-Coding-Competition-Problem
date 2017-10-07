@@ -30,7 +30,9 @@ public class SecurityMatrix {
 	}
 
 	public static void createRole(Role role) throws RoleAlreadyExistsException {
-		// TODO implement me
+		if(role == null) {
+			Role role = new Role();
+		}
 	}
 
 	public static boolean hasAccess(Role role, Day day, Action action) {
